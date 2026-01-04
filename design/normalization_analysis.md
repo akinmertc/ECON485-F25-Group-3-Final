@@ -3,7 +3,7 @@
 
 **Team 3 - Fall 2025**  
 **Date:** Week 5  
-**Prepared by:** Member 2 (Data Analyst)  
+**Prepared by:** Kaan Erdemir (Data Analyst)  
 **Reviewed by:** All team members
 
 ---

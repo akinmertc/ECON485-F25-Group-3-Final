@@ -1,7 +1,7 @@
 # ECON485 Fall 2025 - Project Definition
 ## Project 3: Tourism Revenue & Visitor Trends Database
 
-**Team 3 Members:** Mert Akýn, [Member 2], [Member 3], [Member 4]  
+**Team 3 Members:** Mert Akýn, Kaan Erdemir, Yaren Yamak, Oraz  
 **Date:** Week 4, Fall 2025  
 **Instructor:** ECON485 Course Instructor
 

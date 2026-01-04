@@ -313,17 +313,17 @@ Tourism represents 8-15% of regional GDP in coastal areas
 - GitHub repository management
 - Team coordination and deadlines
 
-**[Member 2] - Data Analyst:**
+**Kaan Erdemir - Data Analyst:**
 - SQL query development and optimization
 - Sample data generation (Python scripts)
 - Performance testing
 
-**[Member 3] - Economic Analyst:**
+**Yaren Yamak - Economic Analyst:**
 - Business logic and KPI definitions
 - Economic insights and interpretation
 - Industry research
 
-**[Member 4] - Documentation Lead:**
+**Oraz - Documentation Lead:**
 - AI interaction logging
 - Meeting notes and progress reports
 - Presentation slide creation

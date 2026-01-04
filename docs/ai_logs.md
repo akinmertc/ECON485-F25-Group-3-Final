@@ -2,7 +2,7 @@
 ## Tourism Revenue & Visitor Trends Database
 
 **Team 3 - Fall 2025**  
-**Documentation Lead:** [Member 4]
+**Documentation Lead:** Oraz
 
 ---
 
@@ -24,7 +24,7 @@ This aligns with the course's "fail-forward AI learning" approach, documenting b
 ### Interaction #1: Tourism Database Research
 **Date:** Monday, Week 3  
 **Tool:** Perplexity AI  
-**Team Member:** Member 3 (Economic Analyst)
+**Team Member:** Yaren Yamak (Economic Analyst)
 
 **Prompt:**
 ```
@@ -57,7 +57,7 @@ AI provided excellent starting point; we validated against authoritative sources
 ### Interaction #2: Entity Relationship Validation
 **Date:** Tuesday, Week 3  
 **Tool:** ChatGPT (GPT-4)  
-**Team Member:** Member 1 (Project Lead)
+**Team Member:** Mert Akin (Project Lead)
 
 **Prompt:**
 ```
@@ -115,7 +115,7 @@ AI provided solid foundation, but team's domain knowledge (economics + tourism) 
 ### Interaction #3: Seasonal Tourism Patterns Research
 **Date:** Wednesday, Week 3  
 **Tool:** Perplexity AI  
-**Team Member:** Member 3 (Economic Analyst)
+**Team Member:** Yaren Yamak (Economic Analyst)
 
 **Prompt:**
 ```
@@ -154,7 +154,7 @@ AI presented trade-offs clearly; team chose based on business requirements (pric
 ### Interaction #4: ER Diagram Tool Selection
 **Date:** Monday, Week 4  
 **Tool:** ChatGPT  
-**Team Member:** Member 1 (Project Lead)
+**Team Member:** Mert Akin (Project Lead)
 
 **Prompt:**
 ```
@@ -185,7 +185,7 @@ AI provided multiple options with trade-offs. Quick testing validated dbdiagram.
 ### Interaction #5: Index Optimization Suggestions
 **Date:** Tuesday, Week 4  
 **Tool:** ChatGPT  
-**Team Member:** Member 2 (Data Analyst)
+**Team Member:** Kaan Erdemir (Data Analyst)
 
 **Prompt:**
 ```
@@ -242,7 +242,7 @@ AI provided solid baseline; domain-specific requirements (visitor demographics, 
 ### Interaction #6: Normalization Check
 **Date:** Wednesday, Week 4  
 **Tool:** ChatGPT  
-**Team Member:** Member 1 (Project Lead)
+**Team Member:** Mert Akin (Project Lead)
 
 **Prompt:**
 ```
@@ -299,7 +299,7 @@ AI correctly identified 3NF violations. We made informed decision to keep TotalC
 ### Interaction #7: Sample Data Generation Strategy
 **Date:** Thursday, Week 4  
 **Tool:** ChatGPT + Python Script  
-**Team Member:** Member 2 (Data Analyst)
+**Team Member:** Kaan Erdemir (Data Analyst)
 
 **Prompt:**
 ```
@@ -394,4 +394,4 @@ All interactions will continue to be logged in this document.
 
 **Last Updated:** Week 4  
 **Next Review:** Week 5 (after normalization complete)  
-**Compiled By:** [Member 4] - Documentation Lead
+**Compiled By:** Oraz - Documentation Lead

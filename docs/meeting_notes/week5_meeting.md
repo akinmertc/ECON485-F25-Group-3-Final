@@ -7,10 +7,10 @@
 
 ## 📋 Attendees
 
-- ✅ [Member 1] - Project Lead
-- ✅ [Member 2] - Data Analyst  
-- ✅ [Member 3] - Economic Analyst
-- ✅ [Member 4] - Documentation Lead
+- ✅ Mert Akin - Project Lead
+- ✅ Kaan Erdemir - Data Analyst  
+- ✅ Yaren Yamak - Economic Analyst
+- ✅ Oraz - Documentation Lead
 
 ## 🎯 Meeting Objectives
 
@@ -40,7 +40,7 @@
 
 ### 2. Normalization Analysis
 
-**Led by:** [Member 2] (Data Analyst)
+**Led by:** Kaan Erdemir (Data Analyst)
 
 **3NF Compliance Check Results:**
 
@@ -56,19 +56,19 @@
 **Issue 1: Hotels Table - City and ZipCode**
 - **Problem:** ZipCode → City (transitive dependency)
 - **Discussion:**
-  - [Member 2]: "Technically violates 3NF"
-  - [Member 1]: "But creating separate Locations table seems excessive"
-  - [Member 3]: "In Turkey, addresses rarely change for hotels"
+  - Kaan Erdemir: "Technically violates 3NF"
+  - Mert Akin: "But creating separate Locations table seems excessive"
+  - Yaren Yamak: "In Turkey, addresses rarely change for hotels"
 - **Decision:** Accept denormalization, document in analysis
 - **Rationale:** Practical convenience outweighs theoretical purity
 
 **Issue 2: Bookings Table - TotalCost**
 - **Problem:** TotalCost = PricePerNight × (CheckOutDate - CheckInDate)
 - **Discussion:**
-  - [Member 2]: "Clear transitive dependency"
-  - [Member 3]: "But hotels never change historical booking prices"
-  - [Member 1]: "Recalculating in every query adds latency"
-  - [Member 4]: "Historical accuracy is important for analytics"
+  - Kaan Erdemir: "Clear transitive dependency"
+  - Yaren Yamak: "But hotels never change historical booking prices"
+  - Mert Akin: "Recalculating in every query adds latency"
+  - Oraz: "Historical accuracy is important for analytics"
 - **Decision:** Keep TotalCost, heavily justify in document
 - **Rationale:** Performance + immutability + historical accuracy
 
@@ -80,7 +80,7 @@
 
 ### 3. SQL Schema Finalization
 
-**Presented by:** [Member 2] (Data Analyst)
+**Presented by:** Kaan Erdemir (Data Analyst)
 
 **Schema Components Reviewed:**
 
@@ -151,7 +151,7 @@
 - Test foreign key cascades
 
 **Day 3-4: Sample Data Generation**
-- [Member 2] creates Python data generator
+- Kaan Erdemir creates Python data generator
 - Generate 10 regions, 15 hotels, 15+ visitors
 - Ensure realistic seasonal distribution
 
@@ -195,7 +195,7 @@
 
 **Risk 1: Data Generation Complexity**
 - **Issue:** Realistic seasonal patterns difficult to code
-- **Mitigation:** [Member 2] will use weighted random for seasons
+- **Mitigation:** Kaan Erdemir will use weighted random for seasons
 - **Backup:** Manual data entry if script fails
 
 **Risk 2: Foreign Key Constraint Testing**
@@ -206,7 +206,7 @@
 **Risk 3: Time Constraint**
 - **Issue:** Week 6 has CRUD + Week 7 has queries
 - **Mitigation:** Start data generation this week (Week 5)
-- **Plan:** [Member 2] begins Python script immediately
+- **Plan:** Kaan Erdemir begins Python script immediately
 
 ---
 
@@ -214,12 +214,12 @@
 
 | # | Action | Owner | Due Date | Status |
 |---|--------|-------|----------|--------|
-| 1 | Complete normalization_analysis.md | Member 2 | Thu Week 5 | ✅ Done |
-| 2 | Finalize schema.sql with all constraints | Member 2 | Thu Week 5 | ✅ Done |
-| 3 | Update ER diagram with final design | Member 1 | Fri Week 5 | ✅ Done |
-| 4 | Begin Python data generator script | Member 2 | Fri Week 5 | 🔄 In Progress |
+| 1 | Complete normalization_analysis.md | Kaan Erdemir | Thu Week 5 | ✅ Done |
+| 2 | Finalize schema.sql with all constraints | Kaan Erdemir | Thu Week 5 | ✅ Done |
+| 3 | Update ER diagram with final design | Mert Akin | Fri Week 5 | ✅ Done |
+| 4 | Begin Python data generator script | Kaan Erdemir | Fri Week 5 | 🔄 In Progress |
 | 5 | Test schema.sql on local MySQL/MariaDB | All | Weekend | ⏳ Pending |
-| 6 | Update AI logs with Week 5 interactions | Member 4 | Fri Week 5 | ✅ Done |
+| 6 | Update AI logs with Week 5 interactions | Oraz | Fri Week 5 | ✅ Done |
 | 7 | Review normalization document | All | Mon Week 6 | ⏳ Pending |
 
 ---
@@ -269,7 +269,7 @@
 ---
 
 **Meeting Adjourned:** 4:30 PM  
-**Minutes Recorded By:** [Member 4] - Documentation Lead  
-**Approved By:** [Member 1] - Project Lead  
+**Minutes Recorded By:** Oraz - Documentation Lead  
+**Approved By:** Mert Akin - Project Lead  
 
 **Next Steps:** Complete normalization document, begin Week 6 CRUD implementation

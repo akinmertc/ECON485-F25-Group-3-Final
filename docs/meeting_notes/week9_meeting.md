@@ -7,10 +7,10 @@
 
 ## 📋 Attendees
 
-- ✅ [Member 1] - Project Lead
-- ✅ [Member 2] - Data Analyst  
-- ✅ [Member 3] - Economic Analyst
-- ✅ [Member 4] - Documentation Lead
+- ✅ Mert Akin - Project Lead
+- ✅ Kaan Erdemir - Data Analyst  
+- ✅ Yaren Yamak - Economic Analyst
+- ✅ Oraz - Documentation Lead
 
 ## 🎯 Meeting Objectives
 
@@ -46,31 +46,31 @@
 
 **Agreed Structure (20 minutes total):**
 
-**Section 1: Introduction (2 min) - [Member 1]**
+**Section 1: Introduction (2 min) - Mert Akin**
 - Project overview
 - Team introduction
 - Stage 2 objectives recap
 
-**Section 2: Schema Design & Normalization (4 min) - [Member 2]**
+**Section 2: Schema Design & Normalization (4 min) - Kaan Erdemir**
 - ER diagram walkthrough (visual aid)
 - 7 tables explained
 - 3NF compliance discussion
 - Intentional denormalizations (TotalCost justification)
 
-**Section 3: Live Demo (6 min) - [Member 2]**
+**Section 3: Live Demo (6 min) - Kaan Erdemir**
 - Database connection
 - CRUD operations example
 - Run Query 1 (regional spending)
 - Run Query 2 (seasonal patterns)
 - Show results interpretation
 
-**Section 4: Economic Insights (5 min) - [Member 3]**
+**Section 4: Economic Insights (5 min) - Yaren Yamak**
 - Key finding 1: Seasonality dominates (50% revenue in 3 months)
 - Key finding 2: International premium (2.5x spending)
 - Key finding 3: Regional variation (Istanbul vs rural)
 - Policy implications
 
-**Section 5: Challenges & AI Learning (2 min) - [Member 4]**
+**Section 5: Challenges & AI Learning (2 min) - Oraz**
 - AI tools used (ChatGPT, Copilot, dbdiagram.io)
 - Fail-forward examples (3 specific errors)
 - Human oversight importance
@@ -116,7 +116,7 @@
 
 ### 4. Live Demo Preparation
 
-**Demo Plan by [Member 2]:**
+**Demo Plan by Kaan Erdemir:**
 
 **Setup:**
 - Laptop with MariaDB installed
@@ -209,18 +209,18 @@ LIMIT 5;
 
 | Section | Speaker | Backup Speaker | Notes |
 |---------|---------|----------------|-------|
-| Introduction | Member 1 | Member 4 | Project lead sets tone |
-| Schema/Normalization | Member 2 | Member 1 | Technical depth from data analyst |
-| Live Demo | Member 2 | Member 1 | Same person for continuity |
-| Economic Insights | Member 3 | Member 1 | Economics expert credibility |
-| Challenges/AI | Member 4 | Member 3 | Documentation lead has full logs |
-| Q&A | All (Member 1 leads) | — | Distribute based on question topic |
+| Introduction | Mert Akin | Oraz | Project lead sets tone |
+| Schema/Normalization | Kaan Erdemir | Mert Akin | Technical depth from data analyst |
+| Live Demo | Kaan Erdemir | Mert Akin | Same person for continuity |
+| Economic Insights | Yaren Yamak | Mert Akin | Economics expert credibility |
+| Challenges/AI | Oraz | Yaren Yamak | Documentation lead has full logs |
+| Q&A | All (Mert Akin leads) | — | Distribute based on question topic |
 
 **Transitions Planned:**
-- [Member 1] introduces [Member 2] for technical section
-- [Member 2] hands off to [Member 3] after demo
-- [Member 3] thanks [Member 4] to introduce challenges
-- [Member 4] returns to [Member 1] for Q&A
+- Mert Akin introduces Kaan Erdemir for technical section
+- Kaan Erdemir hands off to Yaren Yamak after demo
+- Yaren Yamak thanks Oraz to introduce challenges
+- Oraz returns to Mert Akin for Q&A
 
 **Practice:** Practiced transitions 3 times for smooth flow
 
@@ -281,11 +281,11 @@ LIMIT 5;
 | # | Action | Owner | Due Date | Status |
 |---|--------|-------|----------|--------|
 | 1 | Finalize all slides | All | Mon Week 9 | ✅ Done |
-| 2 | Test demo on presentation laptop | Member 2 | Mon Week 9 | ✅ Done |
-| 3 | Create backup materials (USB, prints) | Member 4 | Tue Week 9 | ✅ Done |
+| 2 | Test demo on presentation laptop | Kaan Erdemir | Mon Week 9 | ✅ Done |
+| 3 | Create backup materials (USB, prints) | Oraz | Tue Week 9 | ✅ Done |
 | 4 | Final rehearsal (with timing) | All | Tue Week 9 | ✅ Done |
-| 5 | Upload slides to Google Drive | Member 1 | Tue Week 9 | ✅ Done |
-| 6 | Confirm presentation time slot | Member 1 | Wed Week 9 | ✅ Done |
+| 5 | Upload slides to Google Drive | Mert Akin | Tue Week 9 | ✅ Done |
+| 6 | Confirm presentation time slot | Mert Akin | Wed Week 9 | ✅ Done |
 | 7 | Arrive early on presentation day | All | Thu Week 9 | ⏳ Pending |
 
 ---
@@ -347,8 +347,8 @@ LIMIT 5;
 ---
 
 **Meeting Adjourned:** 6:30 PM  
-**Minutes Recorded By:** [Member 4] - Documentation Lead  
-**Approved By:** [Member 1] - Project Lead  
+**Minutes Recorded By:** Oraz - Documentation Lead  
+**Approved By:** Mert Akin - Project Lead  
 
 **Next Steps:** Deliver excellent Stage 2 presentation Thursday! 🚀  
 **Team Morale:** High - we're ready! 💪

@@ -8,9 +8,9 @@
 ## 📋 Attendees
 
 - ✅ Mert Ak�n - Project Lead
-- ✅ [Member 2] - Data Analyst  
-- ✅ [Member 3] - Economic Analyst
-- ✅ [Member 4] - Documentation Lead
+- ✅ Kaan Erdemir - Data Analyst  
+- ✅ Yaren Yamak - Economic Analyst
+- ✅ Oraz - Documentation Lead
 - ✅ Instructor [via Slack] - Observing
 
 ## 🎯 Meeting Objectives
@@ -56,9 +56,9 @@
 | Role | Member | Responsibilities |
 |------|--------|------------------|
 | **Project Lead** | Mert Ak�n | Coordination, GitHub management, final integration |
-| **Data Analyst** | [Member 2] | Query development, SQL optimization, testing |
-| **Economic Analyst** | [Member 3] | Business logic, KPI definitions, economic interpretation |
-| **Documentation Lead** | [Member 4] | AI logs, meeting notes, presentation slides |
+| **Data Analyst** | Kaan Erdemir | Query development, SQL optimization, testing |
+| **Economic Analyst** | Yaren Yamak | Business logic, KPI definitions, economic interpretation |
+| **Documentation Lead** | Oraz | AI logs, meeting notes, presentation slides |
 
 **Cross-functional:** All members contribute to schema design and attend all meetings.
 
@@ -164,12 +164,12 @@
 
 | Task | Assigned To | Deadline |
 |------|-------------|----------|
-| Draft project definition text | Member 3 (Economic Analyst) | Wednesday |
-| Create initial ER diagram | Member 1 (Project Lead) | Thursday |
-| Research sample tourism datasets | Member 2 (Data Analyst) | Thursday |
-| Set up /docs folder structure | Member 4 (Documentation Lead) | Tuesday |
+| Draft project definition text | Yaren Yamak (Economic Analyst) | Wednesday |
+| Create initial ER diagram | Mert Akin (Project Lead) | Thursday |
+| Research sample tourism datasets | Kaan Erdemir (Data Analyst) | Thursday |
+| Set up /docs folder structure | Oraz (Documentation Lead) | Tuesday |
 | Review & consolidate all inputs | All members | Friday (meeting) |
-| Finalize and submit deliverables | Member 1 | Sunday evening |
+| Finalize and submit deliverables | Mert Akin | Sunday evening |
 
 ---
 
@@ -177,14 +177,14 @@
 
 | # | Action | Owner | Due Date | Status |
 |---|--------|-------|----------|--------|
-| 1 | Create GitHub repo and invite team | Member 1 | Week 3 | ✅ Done |
-| 2 | Set up WhatsApp group and invite instructor | Member 1 | Week 3 | ✅ Done |
-| 3 | Draft initial README.md | Member 1 | Week 3 | ✅ Done |
+| 1 | Create GitHub repo and invite team | Mert Akin | Week 3 | ✅ Done |
+| 2 | Set up WhatsApp group and invite instructor | Mert Akin | Week 3 | ✅ Done |
+| 3 | Draft initial README.md | Mert Akin | Week 3 | ✅ Done |
 | 4 | Create folder structure in repo | All | Week 3 | ✅ Done |
-| 5 | Write project definition draft | Member 3 | Wed Week 4 | 🔄 In Progress |
-| 6 | Design initial ER diagram | Member 1 | Thu Week 4 | 🔄 In Progress |
-| 7 | Research sample datasets | Member 2 | Thu Week 4 | 🔄 In Progress |
-| 8 | Set up /docs structure | Member 4 | Tue Week 4 | 🔄 In Progress |
+| 5 | Write project definition draft | Yaren Yamak | Wed Week 4 | 🔄 In Progress |
+| 6 | Design initial ER diagram | Mert Akin | Thu Week 4 | 🔄 In Progress |
+| 7 | Research sample datasets | Kaan Erdemir | Thu Week 4 | 🔄 In Progress |
+| 8 | Set up /docs structure | Oraz | Tue Week 4 | 🔄 In Progress |
 
 ---
 
@@ -242,7 +242,7 @@
 ---
 
 **Meeting Adjourned:** 5:30 PM  
-**Minutes Recorded By:** [Member 4] - Documentation Lead  
+**Minutes Recorded By:** Oraz - Documentation Lead  
 **Approved By:** Mert Ak�n - Project Lead  
 
 **Next Steps:** Execute Week 4 task assignments, reconvene Thursday for progress check.

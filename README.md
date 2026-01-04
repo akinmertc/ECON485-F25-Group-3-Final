@@ -7,10 +7,10 @@ This project develops a comprehensive database system for a tourism board to tra
 
 ## 👥 Team Members
 
-- **Project Lead:** [Member 1 Name] - Schema Design & Database Architecture
-- **Data Analyst:** [Member 2 Name] - Query Development & Performance Optimization
-- **Economic Analyst:** [Member 3 Name] - Business Logic & Economic Interpretation
-- **Documentation Lead:** [Member 4 Name] - AI Logs & Presentation Materials
+- **Project Lead:** Mert Akin - Schema Design & Database Architecture
+- **Data Analyst:** Kaan Erdemir - Query Development & Performance Optimization
+- **Economic Analyst:** Yaren Yamak - Business Logic & Economic Interpretation
+- **Documentation Lead:** Oraz - AI Logs & Presentation Materials
 
 ## 📅 Project Timeline
 
@@ -445,7 +445,7 @@ This project is educational in nature and created for ECON485 Fall 2025.
 **Course:** ECON485 - Database Systems  
 **Semester:** Fall 2025
 
-**Project Lead:** [Member 1 Email]  
+**Project Lead:** [Mert Akin Email]  
 **GitHub Repository:** https://github.com/[username]/ECON485-Tourism-Analytics  
 **Documentation:** Full docs available in `/docs` folder
 

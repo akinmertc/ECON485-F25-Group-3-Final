@@ -8,9 +8,9 @@
 ## 📋 Attendees
 
 - ✅ Mert Ak�n - Project Lead
-- ✅ [Member 2] - Data Analyst  
-- ✅ [Member 3] - Economic Analyst
-- ✅ [Member 4] - Documentation Lead
+- ✅ Kaan Erdemir - Data Analyst  
+- ✅ Yaren Yamak - Economic Analyst
+- ✅ Oraz - Documentation Lead
 
 ## 🎯 Meeting Objectives
 
@@ -26,7 +26,7 @@
 
 ### 1. Project Definition Document Review
 
-**Presented by:** Member 3 (Economic Analyst)
+**Presented by:** Yaren Yamak (Economic Analyst)
 
 **Document Status:** Draft completed Wednesday, reviewed by all members Thursday
 
@@ -39,13 +39,13 @@
 - ✅ Use cases demonstrate practical applications
 
 **Requested Revisions:**
-- **Member 1:** Add StarRating attribute to Hotels entity description
+- **Mert Akin:** Add StarRating attribute to Hotels entity description
   - **Action:** Added to entity list
   
-- **Member 2:** Clarify relationship between Bookings and Seasons
+- **Kaan Erdemir:** Clarify relationship between Bookings and Seasons
   - **Action:** Added note about "derived relationship based on CheckInDate"
   
-- **Member 4:** Expand AI interaction paragraph with specific example
+- **Oraz:** Expand AI interaction paragraph with specific example
   - **Action:** Added ChatGPT query validation example with correction made
 
 **Final Approval:** ✅ Unanimous approval after revisions
@@ -54,7 +54,7 @@
 
 ### 2. ER Diagram Design Review
 
-**Presented by:** Member 1 (Project Lead)
+**Presented by:** Mert Akin (Project Lead)
 
 **Tool Used:** dbdiagram.io (as planned)
 
@@ -80,19 +80,19 @@
 **Design Discussion Points:**
 
 **Q: Should we add HotelRoomPricing table now or later?**
-- Member 2: "It would enable dynamic pricing by season"
-- Member 1: "Adds complexity; maybe Week 5 refinement?"
+- Kaan Erdemir: "It would enable dynamic pricing by season"
+- Mert Akin: "Adds complexity; maybe Week 5 refinement?"
 - **Decision:** Add as optional entity in ER diagram with note "to be implemented if time permits in Stage 2"
 
 **Q: How to handle Seasons relationship with Bookings?**
-- Member 3: "Seasons aren't directly linked; they're derived from CheckInDate"
-- Member 2: "We could add SeasonID as FK in Bookings?"
-- Member 1: "That creates redundancy; better to calculate in queries"
+- Yaren Yamak: "Seasons aren't directly linked; they're derived from CheckInDate"
+- Kaan Erdemir: "We could add SeasonID as FK in Bookings?"
+- Mert Akin: "That creates redundancy; better to calculate in queries"
 - **Decision:** Keep Seasons separate; use JOIN with date range matching in SQL queries
 
 **Q: Do we need an Activities entity (tourist attractions)?**
-- Member 4: "Could enrich analysis but adds scope"
-- Member 3: "Let's focus on core entities first; Activities can be future enhancement"
+- Oraz: "Could enrich analysis but adds scope"
+- Yaren Yamak: "Let's focus on core entities first; Activities can be future enhancement"
 - **Decision:** Document as "potential future enhancement" but not in initial schema
 
 **Final ER Diagram Status:** ✅ Approved for submission
@@ -101,7 +101,7 @@
 
 ### 3. Normalization Pre-Check
 
-**Led by:** Member 2 (Data Analyst)
+**Led by:** Kaan Erdemir (Data Analyst)
 
 **Objective:** Ensure we're on track for 3NF by Week 5
 
@@ -113,9 +113,9 @@
 - **Problem:** TotalCost can be derived: PricePerNight × (CheckOutDate - CheckInDate)
 - **3NF Violation?** Yes (derived attribute)
 - **Discussion:**
-  - Member 2: "Keeping it improves query performance"
-  - Member 3: "Creates update anomaly if PricePerNight changes"
-  - Member 1: "In tourism, prices are immutable after booking"
+  - Kaan Erdemir: "Keeping it improves query performance"
+  - Yaren Yamak: "Creates update anomaly if PricePerNight changes"
+  - Mert Akin: "In tourism, prices are immutable after booking"
 - **Decision:** Keep TotalCost as denormalized field; document trade-off rationale
 - **Rationale:** Performance benefit outweighs theoretical purity; no practical update risk
 
@@ -134,7 +134,7 @@
 
 ### 4. Sample Data Strategy
 
-**Presented by:** Member 2 (Data Analyst)
+**Presented by:** Kaan Erdemir (Data Analyst)
 
 **Data Generation Approach:**
 
@@ -147,7 +147,7 @@
 - Cons: May need refinement for realism
 
 **Team Decision:** Hybrid approach
-1. Use AI-generated Python script for bulk data (Member 2 to develop Week 5)
+1. Use AI-generated Python script for bulk data (Kaan Erdemir to develop Week 5)
 2. Manually curate 5-10 "featured" examples for demo purposes
 3. Ensure data quality: No orphaned records, realistic distributions
 
@@ -169,7 +169,7 @@
 
 ### 5. GitHub Repository Organization
 
-**Reviewed by:** Member 4 (Documentation Lead)
+**Reviewed by:** Oraz (Documentation Lead)
 
 **Current Structure:**
 ```
@@ -195,7 +195,7 @@ ECON485-F25-Team3-Tourism/
 
 **Commit Message Quality Check:**
 - ✅ Most messages are descriptive
-- ⚠️ Member 3 has some vague commits ("update")
+- ⚠️ Yaren Yamak has some vague commits ("update")
 - **Action:** Reminded team of commit message standards
 
 ---
@@ -205,17 +205,17 @@ ECON485-F25-Team3-Tourism/
 **Discussion Topic:** What worked well, what didn't?
 
 **ChatGPT Feedback:**
-- **Member 1:** "Very helpful for initial schema suggestions, but needed significant refinement"
-- **Member 3:** "Excellent for KPI brainstorming and economic context"
-- **Member 4:** "Generated good starting templates for documentation"
+- **Mert Akin:** "Very helpful for initial schema suggestions, but needed significant refinement"
+- **Yaren Yamak:** "Excellent for KPI brainstorming and economic context"
+- **Oraz:** "Generated good starting templates for documentation"
 
 **Perplexity AI Feedback:**
-- **Member 3:** "Better than ChatGPT for industry-specific research"
-- **Member 2:** "Provided sources, which helped verify accuracy"
+- **Yaren Yamak:** "Better than ChatGPT for industry-specific research"
+- **Kaan Erdemir:** "Provided sources, which helped verify accuracy"
 
 **dbdiagram.io Feedback:**
-- **Member 1:** "Syntax is intuitive, exports cleanly"
-- **Member 2:** "Wish it had better index visualization"
+- **Mert Akin:** "Syntax is intuitive, exports cleanly"
+- **Kaan Erdemir:** "Wish it had better index visualization"
 
 **Key Learning:**
 - AI is excellent for **generating starting points**
@@ -238,16 +238,16 @@ ECON485-F25-Team3-Tourism/
 
 | Item | Status | Owner | Final Check |
 |------|--------|-------|-------------|
-| 1-page project definition (PDF) | ✅ Ready | Member 3 | Member 1 |
-| Initial ER diagram (PNG) | ✅ Ready | Member 1 | Member 2 |
-| GitHub repo structure | ✅ Complete | Member 1 | All |
-| README.md updated | ✅ Complete | Member 4 | Member 1 |
-| AI logs (Week 3-4) | ✅ Complete | Member 4 | Member 3 |
-| Meeting notes (Week 3-4) | 🔄 In progress | Member 4 | Member 1 |
-| Instructor invited to repo | ✅ Done | Member 1 | — |
+| 1-page project definition (PDF) | ✅ Ready | Yaren Yamak | Mert Akin |
+| Initial ER diagram (PNG) | ✅ Ready | Mert Akin | Kaan Erdemir |
+| GitHub repo structure | ✅ Complete | Mert Akin | All |
+| README.md updated | ✅ Complete | Oraz | Mert Akin |
+| AI logs (Week 3-4) | ✅ Complete | Oraz | Yaren Yamak |
+| Meeting notes (Week 3-4) | 🔄 In progress | Oraz | Mert Akin |
+| Instructor invited to repo | ✅ Done | Mert Akin | — |
 
 **Submission Process:**
-1. Member 1 creates `/deliverables/stage1/` folder in repo
+1. Mert Akin creates `/deliverables/stage1/` folder in repo
 2. Upload PDF and PNG files
 3. Tag release: `v1.0-stage1-planning`
 4. Share GitHub link with instructor via Slack
@@ -263,10 +263,10 @@ ECON485-F25-Team3-Tourism/
 
 | Task | Owner | Deadline |
 |------|-------|----------|
-| Write normalization analysis document | Member 2 | Tuesday |
-| Refine ER diagram based on 3NF | Member 1 | Wednesday |
-| Create schema.sql (DDL statements) | Member 2 | Thursday |
-| Generate sample data (Python script) | Member 2 | Thursday |
+| Write normalization analysis document | Kaan Erdemir | Tuesday |
+| Refine ER diagram based on 3NF | Mert Akin | Wednesday |
+| Create schema.sql (DDL statements) | Kaan Erdemir | Thursday |
+| Generate sample data (Python script) | Kaan Erdemir | Thursday |
 | Review and validate schema | All | Friday meeting |
 
 **Week 5 Deliverables:**
@@ -280,13 +280,13 @@ ECON485-F25-Team3-Tourism/
 
 | # | Action | Owner | Due Date | Status |
 |---|--------|-------|----------|--------|
-| 1 | Upload final project definition PDF | Member 3 | Sun Week 4 | 🔄 |
-| 2 | Upload ER diagram PNG | Member 1 | Sun Week 4 | 🔄 |
-| 3 | Complete this meeting notes document | Member 4 | Sun Week 4 | 🔄 |
-| 4 | Tag GitHub release v1.0-stage1-planning | Member 1 | Sun Week 4 | ⏳ |
-| 5 | Notify instructor of submission | Member 1 | Sun Week 4 | ⏳ |
-| 6 | Start normalization analysis | Member 2 | Mon Week 5 | ⏳ |
-| 7 | Begin Python data generator script | Member 2 | Mon Week 5 | ⏳ |
+| 1 | Upload final project definition PDF | Yaren Yamak | Sun Week 4 | 🔄 |
+| 2 | Upload ER diagram PNG | Mert Akin | Sun Week 4 | 🔄 |
+| 3 | Complete this meeting notes document | Oraz | Sun Week 4 | 🔄 |
+| 4 | Tag GitHub release v1.0-stage1-planning | Mert Akin | Sun Week 4 | ⏳ |
+| 5 | Notify instructor of submission | Mert Akin | Sun Week 4 | ⏳ |
+| 6 | Start normalization analysis | Kaan Erdemir | Mon Week 5 | ⏳ |
+| 7 | Begin Python data generator script | Kaan Erdemir | Mon Week 5 | ⏳ |
 
 ---
 
@@ -335,7 +335,7 @@ ECON485-F25-Team3-Tourism/
 ---
 
 **Meeting Adjourned:** 6:00 PM  
-**Minutes Recorded By:** [Member 4] - Documentation Lead  
+**Minutes Recorded By:** Oraz - Documentation Lead  
 **Approved By:** Mert Ak�n - Project Lead  
 
 **Next Steps:** Finalize Stage 1 submission, begin Week 5 normalization work.

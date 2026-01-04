@@ -7,10 +7,10 @@
 
 ## 📋 Attendees
 
-- ✅ [Member 1] - Project Lead
-- ✅ [Member 2] - Data Analyst  
-- ✅ [Member 3] - Economic Analyst
-- ✅ [Member 4] - Documentation Lead
+- ✅ Mert Akin - Project Lead
+- ✅ Kaan Erdemir - Data Analyst  
+- ✅ Yaren Yamak - Economic Analyst
+- ✅ Oraz - Documentation Lead
 
 ## 🎯 Meeting Objectives
 
@@ -70,12 +70,12 @@
 
 ### 2. AI Reflection Finalization
 
-**Draft Review:** [Member 4] presented 150-word AI reflection
+**Draft Review:** Oraz presented 150-word AI reflection
 
 **Team Feedback:**
-- [Member 2]: "Mention specific percentage - 71% of AI outputs needed correction"
-- [Member 3]: "Add economic domain expertise point"
-- [Member 1]: "Include fail-forward methodology"
+- Kaan Erdemir: "Mention specific percentage - 71% of AI outputs needed correction"
+- Yaren Yamak: "Add economic domain expertise point"
+- Mert Akin: "Include fail-forward methodology"
 
 **Final Version Approved:** ✅ (see artifact: final_ai_reflection)
 
@@ -91,7 +91,7 @@
 
 ### 3. Economic Analysis Document Completion
 
-**Led by:** [Member 3] (Economic Analyst)
+**Led by:** Yaren Yamak (Economic Analyst)
 
 **Document Structure:**
 
@@ -140,26 +140,26 @@
 
 **Presentation Structure (Final):**
 
-**Section 1: Journey Overview (3 min) - [Member 1]**
+**Section 1: Journey Overview (3 min) - Mert Akin**
 - Project timeline (Week 3 → Week 14)
 - Three stages completed
 - Team collaboration highlights
 
-**Section 2: Technical Achievements (6 min) - [Member 2]**
+**Section 2: Technical Achievements (6 min) - Kaan Erdemir**
 - 7-table normalized database (3NF)
 - 10+ SQL queries (CRUD + business + advanced)
 - 4 views, 5 indexes for optimization
 - 87 sample records with realistic distribution
 - Live demo: Run advanced query with window function
 
-**Section 3: Economic Insights (8 min) - [Member 3]**
+**Section 3: Economic Insights (8 min) - Yaren Yamak**
 - Key finding 1: Seasonality (with chart)
 - Key finding 2: International premium (comparison graph)
 - Key finding 3: Regional variation (map visualization)
 - Policy recommendations (4 main points)
 - Economic impact: Tourism = 8-15% regional GDP
 
-**Section 4: AI Learning Journey (5 min) - [Member 4]**
+**Section 4: AI Learning Journey (5 min) - Oraz**
 - Tools used and their purposes
 - Success rate: 71% required corrections
 - Fail-forward examples (3 stories)
@@ -217,20 +217,20 @@
 **What Went Well:**
 
 **Technical:**
-- [Member 2]: "Normalization analysis was solid - justified decisions well"
-- [Member 1]: "Schema design held up through entire project - no major changes needed"
-- [Member 2]: "Sample data generation script saved huge time"
+- Kaan Erdemir: "Normalization analysis was solid - justified decisions well"
+- Mert Akin: "Schema design held up through entire project - no major changes needed"
+- Kaan Erdemir: "Sample data generation script saved huge time"
 
 **Collaboration:**
-- [Member 4]: "Weekly meetings kept us organized and on track"
-- [Member 3]: "Clear role assignments - everyone knew their responsibilities"
-- [Member 1]: "No conflicts, respectful discussions, unanimous decisions"
+- Oraz: "Weekly meetings kept us organized and on track"
+- Yaren Yamak: "Clear role assignments - everyone knew their responsibilities"
+- Mert Akin: "No conflicts, respectful discussions, unanimous decisions"
 
 **Learning:**
-- [Member 3]: "Understanding tourism economics through data was eye-opening"
-- [Member 2]: "Advanced SQL queries (window functions, CTEs) - skills for job market"
-- [Member 4]: "Critical AI usage - learned to validate, not blindly trust"
-- [Member 1]: "Project management - coordinating 4 people across 12 weeks"
+- Yaren Yamak: "Understanding tourism economics through data was eye-opening"
+- Kaan Erdemir: "Advanced SQL queries (window functions, CTEs) - skills for job market"
+- Oraz: "Critical AI usage - learned to validate, not blindly trust"
+- Mert Akin: "Project management - coordinating 4 people across 12 weeks"
 
 ---
 
@@ -250,7 +250,7 @@
 1. **Scheduling Conflicts:** Finding meeting times with 4 people
    - **Resolution:** Flexible Zoom + in-person hybrid meetings
    
-2. **Skill Imbalance:** [Member 2] stronger in SQL initially
+2. **Skill Imbalance:** Kaan Erdemir stronger in SQL initially
    - **Resolution:** Knowledge sharing, pair programming sessions
    
 3. **Time Management:** Balancing with other courses
@@ -285,28 +285,28 @@
 
 **For Final Presentation:**
 
-**[Member 1] - Project Lead:**
+**Mert Akin - Project Lead:**
 - Coordinated all meetings and deadlines
 - GitHub repository management (branches, releases)
 - Schema design leadership
 - README.md primary author
 - Presentation coordination
 
-**[Member 2] - Data Analyst:**
+**Kaan Erdemir - Data Analyst:**
 - SQL schema implementation (schema.sql)
 - Sample data generation (Python script)
 - All 10+ queries development
 - Views and indexes optimization
 - Live demo preparation
 
-**[Member 3] - Economic Analyst:**
+**Yaren Yamak - Economic Analyst:**
 - Business logic and KPI definitions
 - Economic interpretation of all queries
 - Policy recommendations document
 - Industry research and validation
 - Economic insights presentation sections
 
-**[Member 4] - Documentation Lead:**
+**Oraz - Documentation Lead:**
 - All meeting notes (7 meetings)
 - AI interaction logging (50+ entries)
 - AI reflection (150 words)
@@ -321,11 +321,11 @@
 
 **Today (Monday Week 14):**
 - 2:00 PM: This meeting (complete) ✅
-- 4:00 PM: Export ER diagram PNG (Member 1)
-- 5:00 PM: Convert presentations to PDF (Member 4)
-- 6:00 PM: Finalize economic analysis (Member 3)
+- 4:00 PM: Export ER diagram PNG (Mert Akin)
+- 5:00 PM: Convert presentations to PDF (Oraz)
+- 6:00 PM: Finalize economic analysis (Yaren Yamak)
 - 7:00 PM: Final GitHub commit (All review)
-- 8:00 PM: Create release tag v3.0-final-submission (Member 1)
+- 8:00 PM: Create release tag v3.0-final-submission (Mert Akin)
 
 **Tomorrow (Tuesday Week 14):**
 - 10:00 AM: Final presentation rehearsal
@@ -338,11 +338,11 @@
 
 | # | Action | Owner | Due Date | Status |
 |---|--------|-------|----------|--------|
-| 1 | Export ER diagram to PNG | Member 1 | Mon 4:00 PM | ⏳ Pending |
-| 2 | Convert presentations to PDF | Member 4 | Mon 5:00 PM | ⏳ Pending |
-| 3 | Finalize economic analysis doc | Member 3 | Mon 6:00 PM | ⏳ Pending |
+| 1 | Export ER diagram to PNG | Mert Akin | Mon 4:00 PM | ⏳ Pending |
+| 2 | Convert presentations to PDF | Oraz | Mon 5:00 PM | ⏳ Pending |
+| 3 | Finalize economic analysis doc | Yaren Yamak | Mon 6:00 PM | ⏳ Pending |
 | 4 | Final repository review | All | Mon 7:00 PM | ⏳ Pending |
-| 5 | Create GitHub release tag | Member 1 | Mon 8:00 PM | ⏳ Pending |
+| 5 | Create GitHub release tag | Mert Akin | Mon 8:00 PM | ⏳ Pending |
 | 6 | Final presentation rehearsal | All | Tue 10:00 AM | ⏳ Pending |
 | 7 | Deliver final presentation | All | Tue 2:00 PM | ⏳ Pending |
 
@@ -380,16 +380,16 @@
 
 ## 💡 Final Reflections
 
-**[Member 1]:**
+**Mert Akin:**
 "This project taught me that good design upfront saves debugging later. Our Week 4 schema held strong through Week 14 with minimal changes."
 
-**[Member 2]:**
+**Kaan Erdemir:**
 "Advanced SQL (window functions, CTEs) seemed scary at first, but breaking problems into steps made them manageable. These are marketable skills."
 
-**[Member 3]:**
+**Yaren Yamak:**
 "Connecting database queries to real economic policy was the most rewarding part. Data + domain knowledge = actionable insights."
 
-**[Member 4]:**
+**Oraz:**
 "Documentation seems boring but saved us multiple times. When we forgot something from Week 5, meeting notes had the answer."
 
 **Team Consensus:**
@@ -464,8 +464,8 @@ This is our final formal meeting.
 ---
 
 **Meeting Adjourned:** 5:00 PM  
-**Minutes Recorded By:** [Member 4] - Documentation Lead  
-**Approved By:** [Member 1] - Project Lead  
+**Minutes Recorded By:** Oraz - Documentation Lead  
+**Approved By:** Mert Akin - Project Lead  
 
 **Final Words:** "We came as classmates, we leave as a successful team. Let's crush this final presentation!" 🚀
 

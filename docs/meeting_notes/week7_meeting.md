@@ -7,10 +7,10 @@
 
 ## 📋 Attendees
 
-- ✅ [Member 1] - Project Lead
-- ✅ [Member 2] - Data Analyst  
-- ✅ [Member 3] - Economic Analyst
-- ✅ [Member 4] - Documentation Lead
+- ✅ Mert Akin - Project Lead
+- ✅ Kaan Erdemir - Data Analyst  
+- ✅ Yaren Yamak - Economic Analyst
+- ✅ Oraz - Documentation Lead
 
 ## 🎯 Meeting Objectives
 
@@ -26,7 +26,7 @@
 
 ### 1. Week 6 CRUD Completion Review
 
-**Status Report by [Member 2]:**
+**Status Report by Kaan Erdemir:**
 
 ✅ **Completed:**
 - schema.sql executed successfully (all 7 tables created)
@@ -54,7 +54,7 @@
 
 ### 2. Business Query Selection
 
-**Led by:** [Member 3] (Economic Analyst)
+**Led by:** Yaren Yamak (Economic Analyst)
 
 **Query Selection Criteria:**
 1. Must demonstrate economic insight
@@ -87,7 +87,7 @@
 
 **Query 1 Development:**
 
-**Initial Attempt by [Member 2]:**
+**Initial Attempt by Kaan Erdemir:**
 ```sql
 SELECT RegionName, SUM(Amount) 
 FROM Regions r
@@ -115,9 +115,9 @@ GROUP BY RegionName;
 **Challenge:** How to classify bookings by season?
 
 **Discussion:**
-- [Member 2]: "Seasons table doesn't directly link to Bookings"
-- [Member 3]: "We need derived relationship based on CheckInDate"
-- [Member 1]: "Use CASE statement with MONTH() function"
+- Kaan Erdemir: "Seasons table doesn't directly link to Bookings"
+- Yaren Yamak: "We need derived relationship based on CheckInDate"
+- Mert Akin: "Use CASE statement with MONTH() function"
 
 **Solution:** CASE WHEN for seasonal classification
 ```sql
@@ -155,7 +155,7 @@ END AS Season
 
 ### 4. Economic Interpretation Session
 
-**Led by:** [Member 3] (Economic Analyst)
+**Led by:** Yaren Yamak (Economic Analyst)
 
 **Query 1 Economic Insights:**
 
@@ -268,7 +268,7 @@ END AS Season
 -- Expected Output: [Sample results]
 ```
 
-**Assigned:** [Member 4] to ensure all queries follow this format
+**Assigned:** Oraz to ensure all queries follow this format
 
 ---
 
@@ -285,10 +285,10 @@ END AS Season
 6. Challenges overcome
 
 **Slide Responsibilities:**
-- [Member 1]: Schema & design overview
-- [Member 2]: Technical implementation & demo
-- [Member 3]: Economic analysis & insights
-- [Member 4]: AI learning & team process
+- Mert Akin: Schema & design overview
+- Kaan Erdemir: Technical implementation & demo
+- Yaren Yamak: Economic analysis & insights
+- Oraz: AI learning & team process
 
 **Demo Plan:**
 - Run queries live (backup: screenshots if internet fails)
@@ -301,12 +301,12 @@ END AS Season
 
 | # | Action | Owner | Due Date | Status |
 |---|--------|-------|----------|--------|
-| 1 | Finalize all 3 business queries | Member 2 | Fri Week 7 | ✅ Done |
-| 2 | Write economic interpretation for each query | Member 3 | Fri Week 7 | ✅ Done |
-| 3 | Add comprehensive comments to SQL file | Member 4 | Sat Week 7 | ✅ Done |
+| 1 | Finalize all 3 business queries | Kaan Erdemir | Fri Week 7 | ✅ Done |
+| 2 | Write economic interpretation for each query | Yaren Yamak | Fri Week 7 | ✅ Done |
+| 3 | Add comprehensive comments to SQL file | Oraz | Sat Week 7 | ✅ Done |
 | 4 | Test queries on clean database reload | All | Weekend | ✅ Done |
-| 5 | Update ai_logs.md with query development | Member 4 | Sun Week 7 | ✅ Done |
-| 6 | Begin Stage 2 presentation outline | Member 1 | Week 8 | ⏳ Pending |
+| 5 | Update ai_logs.md with query development | Oraz | Sun Week 7 | ✅ Done |
+| 6 | Begin Stage 2 presentation outline | Mert Akin | Week 8 | ⏳ Pending |
 | 7 | Prepare for Week 8 exam (no project work) | All | Week 8 | — |
 
 ---
@@ -383,7 +383,7 @@ END AS Season
 ---
 
 **Meeting Adjourned:** 6:00 PM  
-**Minutes Recorded By:** [Member 4] - Documentation Lead  
-**Approved By:** [Member 1] - Project Lead  
+**Minutes Recorded By:** Oraz - Documentation Lead  
+**Approved By:** Mert Akin - Project Lead  
 
 **Next Steps:** Week 8 exam preparation, Week 9 presentation development
