@@ -1,0 +1,13 @@
+# OS / editor artifacts
+.DS_Store
+Thumbs.db
+~$*
+
+# Python caches
+__pycache__/
+*.pyc
+
+# Env / secrets (if present)
+.env
+.venv/
+venv/
